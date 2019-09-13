@@ -34,11 +34,34 @@ blockquote {
     max-width: 55%;
     margin: auto;
     font-size: 32px;
+    font-style: italic;
     background-color: rgb(235, 233, 233);
     border-left-style: solid;
     border-left-width: 3px;
-    border-left-color: #8B4F39;
+    /*border-left-color: #8B4F39;*/
     padding-left: 30px;
     margin-top: 80px;
     margin-bottom: 80px;
+}
+
+q {
+    font-size: 32px;
+    font-style: italic;
+    background-color: rgb(235, 233, 233);
+    border-left-style: solid;
+    border-left-width: 3px;
+    /*border-left-color: #8B4F39;*/
+    padding-left: 30px;
+}
+
+.fermier {
+    border-left-color: rgb(57, 139, 132);
+}
+
+.villageois {
+    border-left-color: rgb(57, 139, 57);
+}
+
+header h2:first-of-type {
+    background-color: yellow;
 }

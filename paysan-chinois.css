@@ -1,4 +1,4 @@
-p, caption, table, ul{
+p, caption, table{
     font-family: "Times New Roman", Times, serif;
     line-height: 1.25em;
     font-size: 20px;
@@ -97,3 +97,37 @@ table th {
     background-color: #0d0e2e;
     color: white;
   }
+
+ul {
+    line-height: 2em;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 1em; 
+}
+
+li {
+    padding-left: 2.5em; 
+}
+
+#bien-li {
+    background-image: url(bien.png);
+    background-repeat: no-repeat;
+    background-size: 2em 2em;
+}
+
+#mal-li {
+    background-image: url(mal.png);
+    background-repeat: no-repeat;
+    background-size: 2em 2em;
+}
+
+#gens-li {
+    background-image: url(chat.png);
+    background-repeat: no-repeat;
+    background-size: 2em 2em;
+}
+
+p:first-of-type {
+    font-weight: bold
+}

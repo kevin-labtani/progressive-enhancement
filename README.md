@@ -9,7 +9,7 @@ Le projet est réalisé sur base des [instructions données](https://github.com/
 Le projet contient, en plus de ce Read-me, une série d'exercices couvrant les 4 premiers jours de ma formation en HTML, CSS et amélioration progressive.
 
 ## Contributeur
-* [__Kevin Labtani__](https://github.com/kevin-labtani) s'occupe de cette répo et du README.md
+* [__Kevin Labtani__](https://github.com/kevin-labtani) s'occupe de cette repo en solo
 
 ## Langages
 Le projet est entièrement réalisé en HTML et CSS

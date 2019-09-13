@@ -3,7 +3,7 @@
 ## Présentation du Projet
 Projet créé le 13 Septembre 2019 par [__Kevin Labtani__](https://github.com/kevin-labtani) dans le cadre de la formation Web Developer donnée par [BeCode](https://www.becode.org/), dans le but d'apprendre le HTML, le CSS et comme introduction au concept d'amélioration progressive.
 
-Le projet est réalisé sur base des [instructions données]https://github.com/becodeorg/CRL-Woods-2.15/tree/master/Parcours/01-Prairie/5.HTML-CSS/progressive-enhancement).
+Le projet est réalisé sur base des [instructions données](https://github.com/becodeorg/CRL-Woods-2.15/tree/master/Parcours/01-Prairie/5.HTML-CSS/progressive-enhancement).
 
 ## Contenu
 Le projet contient, en plus de ce Read-me, une série d'exercices couvrant les 4 premiers jours de ma formation en HTML, CSS et amélioration progressive.

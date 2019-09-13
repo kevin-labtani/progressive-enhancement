@@ -1,4 +1,4 @@
-p {
+p, caption, table, ul{
     font-family: "Times New Roman", Times, serif;
     line-height: 1.25em;
     font-size: 20px;
@@ -65,3 +65,35 @@ q {
 header h2:first-of-type {
     background-color: yellow;
 }
+
+.bien {
+    text-transform: capitalize; 
+    color: green;
+}
+
+.mal {
+    text-transform: capitalize; 
+    color: red;
+}
+
+table {
+    margin: auto;
+    width: 50%;
+  }
+  
+table td, table th {
+    border: 1px solid darkgrey;
+    padding: 8px;
+  }
+  
+table tr:nth-child(odd){background-color: grey;}
+
+table tr:nth-child(even){background-color: white;}
+  
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0d0e2e;
+    color: white;
+  }

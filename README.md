@@ -12,7 +12,7 @@ Le projet contient, en plus de ce Read-me, une série d'exercices couvrant les 4
 
 ## Contributeur
 
-- [**Kevin Labtani**](https://github.com/kevin-labtani) s'occupe de cette repo en solo
+-   [**Kevin Labtani**](https://github.com/kevin-labtani) s'occupe de cette repo en solo
 
 ## Langages
 
@@ -24,6 +24,6 @@ Projet en cours au 13 septembre 2019
 
 ## Remerciements
 
-- [BeCode](https://www.becode.org/) pour la formation
-- [Arnaud Duchemin](https://github.com/Cervant3s) pour le coaching
-- La promotion **CRL-Woods-2.15** pour l'aide et le support
+-   [BeCode](https://www.becode.org/) pour la formation
+-   [Arnaud Duchemin](https://github.com/Cervant3s) pour le coaching
+-   La promotion **CRL-Woods-2.15** pour l'aide et le support

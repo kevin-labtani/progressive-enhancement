@@ -8,11 +8,14 @@ Le projet est réalisé sur base des [instructions données](https://github.com/
 
 ## Contenu
 
-Le projet contient, en plus de ce Read-me, une série d'exercices couvrant les 4 premiers jours de ma formation en HTML, CSS et amélioration progressive.
+1. [Ce README](/README.md)
+1. [Exercice du paysan chinois](/paysan-chinois.html)
+1. [Exercice simple menu horizontal](/menu-horizontal-simple.html)
+1. [Exercice grid](/grid.md)
 
 ## Contributeur
 
--   [**Kevin Labtani**](https://github.com/kevin-labtani) s'occupe de cette repo en solo
+-   [**Kevin Labtani**](https://github.com/kevin-labtani) s'occupe de ce repo
 
 ## Langages
 

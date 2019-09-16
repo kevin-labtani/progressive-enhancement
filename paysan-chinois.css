@@ -147,3 +147,12 @@ li {
 p:first-of-type {
     font-weight: bold;
 }
+
+figure {
+    float: right;
+    margin-left: 20px;
+}
+
+.clear {
+    clear: both;
+}

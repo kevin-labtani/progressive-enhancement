@@ -24,7 +24,6 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #222;
 }
@@ -34,9 +33,6 @@ li:last-child {
 }
 
 /* Styling first section of body */
-.first-section {
-    height: 387px;
-}
 .hero-div {
     background-color: #1e93cc;
     height: 235px;
@@ -84,4 +80,18 @@ li:last-child {
 .myButton:active {
     position: relative;
     top: 1px;
+}
+
+.slogan {
+    height: 30px;
+    padding-bottom: 15px;
+    font-size: 24px;
+    text-align: center;
+}
+/* Styling first section of body */
+
+.advantages {
+    background-color: #1e93cc;
+    height: auto;
+    padding: 20px 110px;
 }

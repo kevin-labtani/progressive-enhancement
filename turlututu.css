@@ -32,3 +32,23 @@ li a:hover {
 li:last-child {
     float: right;
 }
+
+/* Styling first section of body */
+.first-section {
+    height: 387px;
+}
+.hero-div {
+    background-color: #1e93cc;
+    height: 280px;
+    padding: 20px 110px;
+}
+
+.hero-div > img {
+    float: left;
+}
+.hero-div > figure {
+    float: left;
+}
+.hero.div > button {
+    float: left;
+}

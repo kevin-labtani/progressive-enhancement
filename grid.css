@@ -1,0 +1,16 @@
+.posts {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.posts > article {
+    border: 2px solid #ffa94d;
+    border-radius: 5px;
+    background-color: #ffd8a8;
+    padding: 1em;
+    color: #d9480f;
+}

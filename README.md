@@ -12,6 +12,7 @@ Le projet est réalisé sur base des [instructions données](https://github.com/
 1. [Exercice du paysan chinois](/paysan-chinois.html)
 1. [Exercice simple menu horizontal](/menu-horizontal-simple.html)
 1. [Exercice grid](/grid.html)
+1. [Exercice de position](position-fixed.html)
 
 ## Contributeur
 

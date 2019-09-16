@@ -1,4 +1,4 @@
-* {
+body {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 /* styling nav bar */
@@ -39,7 +39,7 @@ li:last-child {
 }
 .hero-div {
     background-color: #1e93cc;
-    height: 280px;
+    height: 235px;
     padding: 20px 110px;
 }
 
@@ -51,4 +51,37 @@ li:last-child {
 }
 .hero.div > button {
     float: left;
+}
+
+.hero-div > figure > img {
+    margin-left: 170px;
+}
+
+.hero-div > figure > figcaption {
+    color: white;
+    font-size: 22px;
+    margin-left: 120px;
+    margin-top: 16px;
+}
+.myButton {
+    background-color: #e99002;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    border: 3px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 16px 14px;
+    text-decoration: none;
+    margin-left: 175px;
+    margin-top: 30px;
+}
+.myButton:hover {
+    background-color: #835100;
+}
+.myButton:active {
+    position: relative;
+    top: 1px;
 }

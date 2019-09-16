@@ -1,0 +1,14 @@
+a {
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+li.inline-block {
+    display: inline-block;
+    background: #505050;
+    padding: 40px 70px;
+}
+li.current {
+    background: #3793df;
+}

@@ -100,25 +100,28 @@ body {
 .advantages {
     background-color: #1e93cc;
     height: auto;
-    padding: 2.8% 10%;
+    padding: 2% 10%;
 }
 
+.row {
+    height: 152px;
+}
 .title {
     color: white;
     font-size: 24px;
     margin-bottom: 12px;
+    margin-top: 12px;
 }
 
 .text {
     color: white;
-    margin-top: 12px;
     text-align: justify;
     width: 95%;
 }
 
 .column {
-    float: left;
     width: 50%;
+    float: left;
 }
 .slogan-bottom {
     height: 30px;

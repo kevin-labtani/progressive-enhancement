@@ -25,7 +25,13 @@ Le projet est entièrement réalisé en HTML et CSS
 
 ## Progression
 
-Projet en cours au 13 septembre 2019
+Projet en cours au 17 septembre 2019
+
+-   [x] Paysan chinois
+-   [x] Menu horizontal simple
+-   [x] Grid
+-   [x] Fixed position
+-   [x] Layout turlututu
 
 ## Remerciements
 

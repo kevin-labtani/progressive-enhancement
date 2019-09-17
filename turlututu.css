@@ -88,18 +88,18 @@ li:last-child {
     top: 1px;
 }
 
-.slogan {
+.slogan-top {
     height: 30px;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
     font-size: 24px;
     text-align: center;
 }
-/* Styling first section of body */
+/* Styling second section of body */
 
 .advantages {
     background-color: #1e93cc;
     height: auto;
-    padding: 1.8% 11%;
+    padding: 2.8% 10%;
 }
 
 .title {
@@ -118,4 +118,11 @@ li:last-child {
 .column {
     float: left;
     width: 50%;
+}
+.slogan-bottom {
+    height: 30px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-align: center;
+    color: #6f6f6f;
 }

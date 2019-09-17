@@ -2,6 +2,7 @@ body {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     box-sizing: border-box;
     max-width: 1425px;
+    min-width: 900px;
     margin: auto;
 }
 /* styling nav bar */
@@ -9,7 +10,7 @@ body {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0 130px;
+    padding: 0 11%;
     overflow: hidden;
     background-color: #333333;
 }
@@ -60,7 +61,7 @@ li:last-child {
 
 .hero-div > figure > figcaption {
     color: white;
-    font-size: 22px;
+    font-size: 24px;
     margin-left: 165px;
     margin-top: 16px;
 }
@@ -73,7 +74,7 @@ li:last-child {
     display: inline-block;
     cursor: pointer;
     color: #ffffff;
-    font-size: 22px;
+    font-size: 24px;
     padding: 16px 14px;
     text-decoration: none;
     margin-left: 175px;
@@ -98,5 +99,23 @@ li:last-child {
 .advantages {
     background-color: #1e93cc;
     height: auto;
-    padding: 20px 110px;
+    padding: 1.8% 11%;
+}
+
+.title {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.text {
+    color: white;
+    margin-top: 12px;
+    text-align: justify;
+    width: 95%;
+}
+
+.column {
+    float: left;
+    width: 50%;
 }

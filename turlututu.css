@@ -65,7 +65,8 @@ li:last-child {
     margin-left: 165px;
     margin-top: 16px;
 }
-.myButton {
+
+.myOrangeButton {
     background-color: #e99002;
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
@@ -80,10 +81,10 @@ li:last-child {
     margin-left: 175px;
     margin-top: 30px;
 }
-.myButton:hover {
+.myOrangeButton:hover {
     background-color: #835100;
 }
-.myButton:active {
+.myOrangeButton:active {
     position: relative;
     top: 1px;
 }
@@ -158,4 +159,64 @@ li:last-child {
     width: 17%;
     /* display: inline-block; */
     vertical-align: middle;
+}
+/* Styling the three action buttons */
+
+.buttons {
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 9%;
+}
+
+.RestButton {
+    padding: 16px 33px;
+}
+
+.DocButton {
+    padding: 16px 53px;
+}
+
+.myBlueButton {
+    background-color: #165882;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    border: 3px solid #ffffff;
+    /* display: inline-block; */
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 24px;
+    /* padding: 16px 40px; */
+    text-decoration: none;
+    /* margin-left: 30px;
+    margin-top: 30px; */
+}
+.myBlueButton:hover {
+    background-color: #217cb4;
+}
+.myBlueButton:active {
+    position: relative;
+    top: 1px;
+}
+.myOrangeButton2 {
+    background-color: #e99002;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    border: 3px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 16px 14px;
+    text-decoration: none;
+    /* margin-left: 10px;
+    margin-top: 10px; */
+}
+.myOrangeButton2:hover {
+    background-color: #835100;
+}
+.myOrangeButton2:active {
+    position: relative;
+    top: 1px;
 }

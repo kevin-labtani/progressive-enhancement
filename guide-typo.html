@@ -91,39 +91,53 @@
                 <p>
                     La plus utilisée aujourd'hui, surtout sur le web, est celle du W3C qui nous donne les grandes familles suivantes :
                 </p>
-                <p>
-                    <img 
-                    src="http://coreight.com/sites/default/files/times.png" 
-                    alt="times"
-                    class="center">
-                    - serif : polices à empattement (exemples : Times New Roman, Georgia, Garamond...)
-                </p>
-                <p>         
-                    <img 
-                    src="http://coreight.com/sites/default/files/helvetica.png" alt="helvetica"
-                    class="center">
-                    - sans-serif : polices sans empattement (ex : Arial, Helvetica, Tahoma, Verdana...)
-                </p>
-                <p>         
-                    <img src="http://coreight.com/sites/default/files/lucida.png" 
-                    alt="lucida"
-                    class="center">
-                    - cursive : polices simulant l'écriture à la main (ex: Lucida Handwriting, mais aussi Comic Sans MS (et ouais !))
-                </p>   
-                <p>      
-                    <img 
-                    src="http://coreight.com/sites/default/files/blackletter.png" alt="blackletter"
-                    class="center">
-                    - fantasy : polices plus exotiques, décoratives (ex : Impact, Fraktur...)
-                    (<a href="http://coreight.com/content/polices-celebres-films-cinema-telecharger-gratuitement" target="_blank" title="Des polices célèbres de films à télécharger gratuitement">une collection de polices célèbres de films</a>)
-                </p>
-                <p>
-                    <img 
-                    src="http://coreight.com/sites/default/files/courier.png" 
-                    alt="courier"
-                    class="center">
-                    - monospace : polices à chasse fixe (largeur utilisée pour chaque caractère) (ex : Courier New, Lucida Console...)
-                </p>
+                <div class="row">
+                    <div class="column">
+                        <img 
+                            src="http://coreight.com/sites/default/files/times.png" 
+                            alt="times">
+                    </div>
+                    <p class='column'>- serif : polices à empattement (exemples : Times New Roman, Georgia, Garamond...)
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <img 
+                        src="http://coreight.com/sites/default/files/helvetica.png" alt="helvetica">
+                    </div>
+                    <p class='column'>
+                        - sans-serif : polices sans empattement (ex : Arial, Helvetica, Tahoma, Verdana...)
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="column">   
+                        <img src="http://coreight.com/sites/default/files/lucida.png" 
+                        alt="lucida">
+                    </div>
+                    <p class='column'>
+                        - cursive : polices simulant l'écriture à la main (ex: Lucida Handwriting, mais aussi Comic Sans MS (et ouais !))
+                    </p>
+                </div>   
+                <div class="row">      
+                    <div class="column">
+                        <img 
+                        src="http://coreight.com/sites/default/files/blackletter.png" alt="blackletter">
+                    </div>
+                    <p class="column">
+                        - fantasy : polices plus exotiques, décoratives (ex : Impact, Fraktur...)
+                        <a href="http://coreight.com/content/polices-celebres-films-cinema-telecharger-gratuitement" target="_blank" title="Des polices célèbres de films à télécharger gratuitement">(une collection de polices célèbres de films)</a>
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <img 
+                        src="http://coreight.com/sites/default/files/courier.png" 
+                        alt="courier">
+                    </div>
+                    <p class="column">
+                        - monospace : polices à chasse fixe (largeur utilisée pour chaque caractère) (ex : Courier New, Lucida Console...)
+                    </p>
+                </div>
                 <strong>Quelle famille de police choisir alors ?</strong>
                 <p>
                     Tout dépendra bien sûr de l'usage que tu vas en faire. Sur des grands blocs de textes, il faut essayer de ne pas perturber le lecteur, et préférer des polices sobres et habituelles, type serif et sans-serif (ou en tout cas proches visuellement de modèles habituels). J'ai lu ça et là qu'il vaudrait mieux préférer les polices sans-serif sur le web, plus facile à lire, mais je reste perplexe puisque certains services dédiés à la lecture comme <a href="http://medium.com" target="_blank" title="medium">Medium</a> utilisent des polices serif pour le corps du texte.
@@ -157,7 +171,7 @@
                 <img 
                 src="http://coreight.com/sites/default/files/police-taille.png" 
                 alt="taille des polices"
-                class="center">
+                class="center floating">
                 <p>
                     Exprimée au choix en point, pixels, ou en valeur relative (em ou %), la taille désigne en fait la hauteur du corps de la police (cf schéma au dessus).
                 </p>
@@ -170,7 +184,7 @@
                 <img 
                 src="http://coreight.com/sites/default/files/graisse.png" 
                 alt="graisse"
-                class="center">
+                class="center floating">
                 <p>
                     La graisse correspond tout simplement à l'épaisseur du trait, et permet de mettre en valeur certains mots, titres, paragraphes...
                 </p>
@@ -193,7 +207,7 @@
                 <img
                 src="http://coreight.com/sites/default/files/polices-differentes.png"
                 alt="polices différentes"
-                class="center"/> 
+                class="center floating"/> 
                 <p>
                     C'est un défaut que l'on retrouve très souvent dans les publications amateurs : chaque information sera écrite avec une fonte totalement différente : une police fantasy pour le titre, une police serif en gras pour la date, une police sans-serif en italique pour le lieu... et tout le reste en <a href="http://www.comicsanscriminal.com/" target="_blank" title="Comic Sans MS">Comic Sans MS</a> bien entendu.
                 </p>
@@ -209,7 +223,7 @@
                 <img
                 src="http://coreight.com/sites/default/files/polices-combinaison.png"
                 alt="combinaison de polices"
-                class="center"/> 
+                class="center floating"/> 
                 <p>
                     Maintenant que tu connais tout des différentes familles de police, et que tu sais qu'il ne faut pas trop exagérer sur leur nombre dans un même document, tu vas pouvoir jouer à les combiner.
                 </p>
@@ -231,7 +245,7 @@
                 <img
                 src="http://coreight.com/sites/default/files/police-modifier.jpg"
                 alt="modifier les polices"
-                class="center"/>
+                class="center floating"/>
                 <p>
                     N'oublie pas également qu'une même police peut-être adaptée selon tes besoins, car on peut jouer sur la hauteur des interlignes, ou l'espacement entre les caractères (exemple ci-contre sous Gimp)
                 </p>
@@ -241,7 +255,7 @@
                 <img
                 src="http://coreight.com/sites/default/files/paragraphe.jpg"
                 alt="paragraphe"
-                class="center"/>
+                class="center floating"/>
                 <p>
                     Les caractères, c'est une chose, mais autant les utiliser dans des ensembles clairs et cohérents
                 </p>
@@ -282,6 +296,7 @@
                     <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>
                         Pour les () [] {} et les guillemets, on met des espaces à l'extérieur, pas à l'intérieur
                     </li>
+                </ul>
             </article>
         </section>
         <section>

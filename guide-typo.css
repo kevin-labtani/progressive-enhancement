@@ -23,10 +23,10 @@ h2 {
     font-size: 1.5em;
 }
 
-.attribution {
-    margin-top: -1em;
-    text-align: center;
-    font-weight: bold;
+h3 {
+    font-family: Lucida Grande;
+    font-size: 1.35em;
+    clear: both;
 }
 
 a {
@@ -36,15 +36,11 @@ a {
 }
 
 .center {
-    width: 80%;
+    max-width: 80%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.explain {
-    font-style: italic;
 }
 
 p,
@@ -52,13 +48,25 @@ ul {
     line-height: 1.5;
 }
 
-/* Styling code */
-pre {
-    line-height: 1.2;
-    color: #ffffff;
-    background-color: #444444;
-    padding-top: 1em;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    min-height: 8em;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    margin-left: 1em;
+    line-height: 1em;
+}
+
+.floating {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
 }

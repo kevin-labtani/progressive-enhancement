@@ -9,7 +9,7 @@
             href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" type="text/css" href="normalize.css" />
+        <link rel="stylesheet" type="text/css" href="typographie.css" />
         <title>Comment améliorer sa typographie.</title>
     </head>
     <body>
@@ -20,7 +20,7 @@
                 >Antonio Carusone</a
             >
         </p>
-        <Section>
+        <section>
             <p>
                 Cet article a été écrit pour publication dans Smashing Magazine
                 le 3 avril 2009. Je le reproduis ici pour vous être agréable.
@@ -47,7 +47,7 @@
                     donc l 'ergonomie, de vos designs.
                 </p>
             </article>
-        </Section>
+        </section>
         <article>
             <h2>Justification</h2>
             <p>
@@ -60,9 +60,15 @@
                 une lisibilité optimale, vous devriez avoir une justification de
                 40 à 80 caractères, espaces inclus. Pour un design à une seule
                 colonne, une justification de 65 caractères est considérée comme
-                idéale.[ image
-                :http://www.pompage.net/IMG/jpg/justification.jpg]
+                idéale.
             </p>
+            <div>
+                <img
+                    src="http://www.pompage.net/IMG/jpg/justification.jpg"
+                    alt="justification"
+                    class="center"
+                />
+            </div>
             <p>
                 Une manière simple pour calculer la justification est d
                 'utiliser la méthode de Robert Bringhurst, qui multiplie la
@@ -97,8 +103,15 @@
                 déterminer un interlignage de 2 à 5 points plus grand que la
                 taille de la fonte, selon la police. Si vous avez une fonte de
                 12pt, un interlignage de 15 à 16pt devrait bien fonctionner sur
-                le Web.[ image :http://www.pompage.net/IMG/jpg/interlignage.jpg]
+                le Web.
             </p>
+            <div>
+                <img
+                    src="http://www.pompage.net/IMG/jpg/interlignage.jpg"
+                    alt="interlignage"
+                    class="center"
+                />
+            </div>
             <p>
                 Obtenir le bon espacement demande un peu de finesse, mais voici
                 un exemple de ce à quoi le code pourrait ressembler:
@@ -117,9 +130,15 @@
                 ignorant cela, un guillemet aligné avec le texte interrompra la
                 marge gauche et perturbera le rythme du lecteur. Placer les
                 guillemets à l 'extérieur permet de conserver l 'alignement à
-                gauche intact et équilibré, améliorant ainsi la lisibilité.[
-                image :http://www.pompage.net/IMG/jpg/guillemets.jpg]
+                gauche intact et équilibré, améliorant ainsi la lisibilité.
             </p>
+            <div>
+                <img
+                    src="http://www.pompage.net/IMG/jpg/guillemets.jpg"
+                    alt="guillemets"
+                    class="center"
+                />
+            </div>
             <p>
                 Ce résultat est obtenu très facilement avec CSS en utilisant l
                 'élément blockquote:
@@ -144,9 +163,15 @@
                 maintient tout le texte sur une grille cohérente, afin que la
                 proportion et l 'équilibre soient conservés dans toute la page,
                 quels que soient la taille de la fonte, l 'interlignage ou la
-                justification.[ image
-                :http://www.pompage.net/IMG/jpg/rythme-vertical.jpg]
+                justification.
             </p>
+            <div>
+                <img
+                    src="http://www.pompage.net/IMG/jpg/rythme-vertical.jpg"
+                    alt="rythme vertical"
+                    class="center"
+                />
+            </div>
             <p>
                 Pour conserver un rythme vertical en CSS il faut que l
                 'espacement entre les éléments et l 'interlignage soient égaux à
@@ -177,9 +202,15 @@
                 interrompent l 'œil du lecteur et affectent la lisibilité. Ils
                 peuvent être évités en ajustant la taille de la fonte, l
                 'interlignage, la justification, l 'intermots, l 'interlettrage
-                ou en entrant manuellement des sauts de ligne.[ image
-                :http://www.pompage.net/IMG/jpg/veuves-orphelins.jpg]
+                ou en entrant manuellement des sauts de ligne.
             </p>
+            <div>
+                <img
+                    src="http://www.pompage.net/IMG/jpg/veuves-orphelins.jpg"
+                    alt="veuves et orphelins"
+                    class="center"
+                />
+            </div>
             <p>
                 Malheureusement, il n 'existe pas de moyen facile pour empêcher
                 les veuves et orphelines typographiques avec CSS. Une façon de
@@ -210,9 +241,15 @@
                 la fonte, la couleur, le soulignement ou une police de
                 caractères différente. Essayez de vous limiter à une emphase
                 unique, quelle qu 'elle soit. Les combinaisons comme
-                capitales-gras-italique sont perturbantes et ont l 'air gauche.[
-                image :http://www.pompage.net/IMG/jpg/emphase.jpg]
+                capitales-gras-italique sont perturbantes et ont l 'air gauche.
             </p>
+            <div>
+                <img
+                    src="http://www.pompage.net/IMG/jpg/emphase.jpg"
+                    alt="emphase"
+                    class="center"
+                />
+            </div>
             <p>
                 Voici quelques manières différentes de créer une emphase en CSS:
             </p>
@@ -237,9 +274,15 @@
                 nous sommes tous familiers, ou une que vous créez vous-même. Une
                 échelle est importante parce qu 'elle établit une hiérarchie
                 typographique qui améliore la lisibilité et crée une harmonie et
-                cohérence à l 'intérieur du texte.[ image
-                :http://www.pompage.net/IMG/jpg/echelle.jpg]
+                cohérence à l 'intérieur du texte.
             </p>
+            <div>
+                <img
+                    src="http://www.pompage.net/IMG/jpg/echelle.jpg"
+                    alt="échemme"
+                    class="center"
+                />
+            </div>
             <p>
                 Voici un exemple d 'échelle typographique définie en CSS:
             </p>
@@ -261,9 +304,15 @@
                 et distraire le lecteur. Un bon drapeau est plus «doux», sans
                 lignes trop longues ou trop courtes. Il n 'existe aucun moyen de
                 contrôler cela en CSS, donc pour obtenir un bon drapeau vous
-                devez faire des ajustements manuels sur le bloc de texte.[ image
-                :http://www.pompage.net/IMG/jpg/drapeaux.jpg]
+                devez faire des ajustements manuels sur le bloc de texte.
             </p>
+            <div>
+                <img
+                    src="http://www.pompage.net/IMG/jpg/drapeaux.jpg"
+                    alt="drapeaux"
+                    class="center"
+                />
+            </div>
             <p>
                 La césure peut aussi aider à faire des drapeaux propres, mais
                 malheureusement les CSS ne peuvent pas le gérer pour l 'instant.
@@ -390,8 +439,10 @@
         </article>
         <footer>
             <p>
-                source:
-                http://www.pompage.net/traduction/8-facons-simples-d-ameliorer-la-typographie-dans-vos
+                <a
+                    href="http://www.pompage.net/traduction/8-facons-simples-d-ameliorer-la-typographie-dans-vos"
+                    >Source</a
+                >
             </p>
         </footer>
     </body>

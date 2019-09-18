@@ -35,7 +35,7 @@ Projet en cours au 17 septembre 2019
 -   [x] Fixed position
 -   [x] Layout turlututu
 -   [x] Article Medium style
--   [] Article Medium style n°2
+-   [ ] Article Medium style n°2
 
 ## Remerciements
 

@@ -14,6 +14,8 @@ Le projet est réalisé sur base des [instructions données](https://github.com/
 1. [Exercice grid](/grid.html)
 1. [Exercice de position](/position-fixed.html)
 1. [Exercice de copie de layout turlututu](/turlututu.html)
+1. [Exercice _8 façons simples d’améliorer la typographie dans vos designs_](typographie.html)
+1. [Exercice _Petit guide des polices et de la typographie_](guide-typo.html)
 
 ## Contributeur
 

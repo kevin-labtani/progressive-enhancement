@@ -9,6 +9,7 @@
             href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap"
             rel="stylesheet"
         />
+        <script src="https://kit.fontawesome.com/5b4f12118e.js"></script>
         <link rel="stylesheet" type="text/css" href="typographie.css" />
         <title>Comment améliorer sa typographie.</title>
     </head>
@@ -77,11 +78,12 @@
                 ou environ 65 caractères par ligne. Le code ressemblerait à
                 quelque chose comme:
             </p>
-            <p>
-                <code>
-                    p { font-size: 10px; max-width: 300px; }
-                </code>
-            </p>
+            <pre>
+    p {
+        font-size: 10px;
+        max-width: 300px;
+    }
+            </pre>
         </article>
 
         <article>
@@ -117,10 +119,13 @@
                 un exemple de ce à quoi le code pourrait ressembler:
             </p>
             <p>
-                <code>
-                    body { font-family: Helvetica, sans-serif; font-size: 12px;
-                    line-height: 16px; }
-                </code>
+            <pre>
+    body {
+        font-family: Helvetica, sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+    }
+            </pre>
             </p>
         </article>
         <article>
@@ -143,11 +148,12 @@
                 Ce résultat est obtenu très facilement avec CSS en utilisant l'
                 élément blockquote:
             </p>
-            <p>
-                <code>
-                    blockquote { text-indent: -0.8em; font-size: 12px; }
-                </code>
-            </p>
+            <pre>
+    blockquote {
+        text-indent: -0.8em;
+        font-size: 12px;
+    }
+            </pre>
             <p>
                 L'indentation négative dépendra de la police, de la taille de la
                 fonte et des marges utilisées.
@@ -181,12 +187,16 @@
                 de 15px et l'espace entre chaque paragraphe serait également de
                 15px. Voici un exemple:
             </p>
-            <p>
-                <code>
-                    body { font-family: Helvetica, sans-serif; font-size: 12px;
-                    line-height: 15px; } p { margin-bottom: 15px; }
-                </code>
-            </p>
+            <pre>
+    body {
+        font-family: Helvetica, sans-serif;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    p {
+        margin-bottom: 15px;
+    }
+            </pre>
             <p>
                 Cela permet à chaque paragraphe de s'aligner sur la grille et
                 ainsi de conserver le rythme vertical du texte.
@@ -253,13 +263,20 @@
             <p>
                 Voici quelques manières différentes de créer une emphase en CSS:
             </p>
-            <p>
-                <code>
-                    span { font-variant: small-caps; } h1 { font-style: italic;}
-                    h2 { text-transform: uppercase; } a {
-                    text-decoration:underline; }
-                </code>
-            </p>
+            <pre>
+    span {
+        font-variant: small-caps;
+    }
+    h1 {
+        font-style: italic;
+    }
+    h2 {
+        text-transform: uppercase;
+    }
+    a {
+        text-decoration: underline;
+    }
+            </pre>
             <p>
                 Gardez à l'esprit que le style font-variant ne fonctionne que si
                 la police choisie supporte la variante small-caps (petites
@@ -286,13 +303,29 @@
             <p>
                 Voici un exemple d'échelle typographique définie en CSS:
             </p>
-            <p>
-                <code>
-                    h1 { font-size: 48px; } h2 { font-size: 36px; } h3 {
-                    font-size: 24px; } h4 { font-size: 21px; } h5 { font-size:
-                    18px; } h6 { font-size: 16px; } p { font-size: 14px; }
-                </code>
-            </p>
+            <pre>
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 21px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    h6 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 14px;
+    }
+            </pre>
         </article>
         <article>
             <h2>De beaux drapeaux</h2>
@@ -352,8 +385,11 @@
                 Voici une liste d'articles et livres sur le même thème pour vous
                 aider avec les détails:
             </p>
-            <ul>
+            <ul class="fa-ul">
                 <li>
+                    <span class="fa-li"
+                        ><i class="fas fa-angle-right"></i
+                    ></span>
                     <a
                         href="http://www.markboulton.co.uk/journal/comments/five_simple_steps_to_better_typography/"
                         hreflang="en"
@@ -361,6 +397,9 @@
                     >, Mark Boulton
                 </li>
                 <li>
+                    <span class="fa-li"
+                        ><i class="fas fa-angle-right"></i
+                    ></span>
                     <a
                         href="http://www.markboulton.co.uk/journal/comments/incremental_leading/"
                         hreflang="en"
@@ -368,6 +407,9 @@
                     >, Mark Boulton
                 </li>
                 <li>
+                    <span class="fa-li"
+                        ><i class="fas fa-angle-right"></i
+                    ></span>
                     <a
                         href="http://24ways.org/2006/compose-to-a-vertical-rhythm"
                         hreflang="en"
@@ -375,6 +417,9 @@
                     >, Richard Rutter — 24 Ways
                 </li>
                 <li>
+                    <span class="fa-li"
+                        ><i class="fas fa-angle-right"></i
+                    ></span>
                     <a
                         href="http://www.alistapart.com/articles/settingtypeontheweb"
                         hreflang="en"
@@ -382,6 +427,9 @@
                     >, Wilson Minor — A List Apart
                 </li>
                 <li>
+                    <span class="fa-li"
+                        ><i class="fas fa-angle-right"></i
+                    ></span>
                     <a
                         href="http://dev.opera.com/articles/view/setting-web-type-to-a-baseline-grid/"
                         hreflang="en"
@@ -389,11 +437,17 @@
                     >, Craig Grannell — Opera
                 </li>
                 <li>
+                    <span class="fa-li"
+                        ><i class="fas fa-angle-right"></i
+                    ></span>
                     <a href="http://webtypography.net/" hreflang="en"
                         >The Elements of Typographic Style Applied to the Web</a
                     >, Robert Bringhurst
                 </li>
                 <li>
+                    <span class="fa-li"
+                        ><i class="fas fa-angle-right"></i
+                    ></span>
                     <a
                         href="http://www.alistapart.com/articles/howtosizetextinCSS"
                         hreflang="en"
@@ -401,6 +455,9 @@
                     >, Richard Rutter — A List Apart
                 </li>
                 <li>
+                    <span class="fa-li"
+                        ><i class="fas fa-angle-right"></i
+                    ></span>
                     <a
                         href="http://topfunky.com/baseline-rhythm-calculator/"
                         hreflang="en"
@@ -408,6 +465,9 @@
                     >, Geoffrey Grosenbach
                 </li>
                 <li>
+                    <span class="fa-li"
+                        ><i class="fas fa-angle-right"></i
+                    ></span>
                     <a
                         href="http://www.amazon.com/Detail-Typography-Jost-Hochuli/dp/0907259340"
                         hreflang="en"
@@ -415,6 +475,9 @@
                     >, Jost Hochuli
                 </li>
                 <li>
+                    <span class="fa-li"
+                        ><i class="fas fa-angle-right"></i
+                    ></span>
                     <a
                         href="http://www.amazon.com/Elements-Typographic-Style-Robert-Bringhurst/dp/0881791326"
                         hreflang="en"
@@ -422,6 +485,9 @@
                     >, Robert Bringhurst
                 </li>
                 <li>
+                    <span class="fa-li"
+                        ><i class="fas fa-angle-right"></i
+                    ></span>
                     <a
                         href="http://www.amazon.com/Thinking-Type-Critical-Designers-Students/dp/1568984480"
                         hreflang="en"
@@ -429,6 +495,9 @@
                     >, Ellen Lupton
                 </li>
                 <li>
+                    <span class="fa-li"
+                        ><i class="fas fa-angle-right"></i
+                    ></span>
                     <a
                         href="http://www.amazon.com/Systems-Graphic-Systeme-Visuele-Gestaltung/dp/3721201450"
                         hreflang="en"

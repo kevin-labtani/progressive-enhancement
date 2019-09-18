@@ -9,8 +9,8 @@ body {
     flex-direction: column;
     font-family: "Open Sans", sans-serif;
     font-size: 1.25em;
-    color: #111111;
-    background-color: #dddddd;
+    color: #ffffff;
+    background-color: #555555;
 }
 
 h1 {
@@ -27,7 +27,7 @@ h1 {
 a {
     text-decoration: none;
     font-weight: bold;
-    color: RoyalBlue;
+    color: lightsteelblue;
 }
 
 h2 {
@@ -36,12 +36,11 @@ h2 {
 }
 
 .center {
-    width: 70%;
+    width: 80%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
 }
 
 .explain {
@@ -51,4 +50,15 @@ h2 {
 p,
 ul {
     line-height: 1.5;
+}
+
+/* Styling code */
+pre {
+    line-height: 1.2;
+    color: #ffffff;
+    background-color: #444444;
+    padding-top: 1em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }

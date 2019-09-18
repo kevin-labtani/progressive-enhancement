@@ -9,11 +9,25 @@ body {
     flex-direction: column;
     font-family: "Open Sans", sans-serif;
     font-size: 1.25em;
+    color: #111111;
+    background-color: #dddddd;
 }
 
 h1 {
     font-family: Lucida Grande;
     font-size: 2em;
+}
+
+.attribution {
+    margin-top: -1em;
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: RoyalBlue;
 }
 
 h2 {
@@ -28,4 +42,13 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+}
+
+.explain {
+    font-style: italic;
+}
+
+p,
+ul {
+    line-height: 1.5;
 }
